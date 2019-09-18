@@ -1,78 +1,86 @@
-<!DOCTYPE html>
 
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-  <title></title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
+ 
+ 
+ 
+ #nav-header p {
+    font-size: 1.6em;
+    margin-left: 16px;
+    margin-top: 53px;
+    font-weight: bold;
+ }
+ 
+ 
 
-  <!-- build:css assets/styles/styles.css -->
-  <link rel="stylesheet" href="temp/styles/styles.css">
-  <!-- endbuild -->
-
-  <!-- build:js assets/scripts/Vendor.js -->
-  <script src="/temp/scripts/Vendor.js"></script>
-  <!-- endbuild -->
-
-</head>
-<body>
-  <header class="header">
-    <h1>HTML Documentation</h1>
- </header>
-
- <div class="left-frame">
-  <nav>
-    <ul class="ul">
-      <div class="ul__container">
-          <li><a href=#Introduction_to_HTML>Introduction to HTML</a></li>
-      </div>
-      <div class="ul__container">
-          <li class="left-frame--padding-top"><a href=#Prerequisites>Prerequisites</a></li>
-      </div>
-      <div class="ul__container">
-          <li class="left-frame--padding-top"><a href=#What_is_HTML?>What is HTML?</a></li>
-      </div>
-      <div class="ul__container">
-          <li><a href=#What_is_HTML?>What is HTML?</a></li>
-        </div>
-        <div class="ul__container">
-            <li><a href=#What_is_HTML?>What is HTML?</a></li>
-          </div> 
-          <div class="ul__container">
-              <li><a href=#What’s_in_the_head?_Metadata_in_HTML>What’s in the head? Metadata in HTML</a></li>
-            </div>     
-            <div class="ul__container">
-                <li><a href=#HTML_text_fundamentals>HTML text fundamentals</a></li>
-              </div>     
-              <div class="ul__container">
-                  <li><a href=#What_is_a_hyperlink?>What is a hyperlink?</a></li>
-       
-                </div>     
-                <div class="ul__container">
-                    <li><a href=#Document_and_website_structure>Document and website structure</a></li>
-                  </div>            
-      
-                  <div class="ul__container">
-                      <li><a href=#Document_and_website_structure>Document and website structure</a></li>
-      
-                    </div>            
-                    <div class="ul__container">
-                        <li><a href=#Reference>Reference</a></li>
-      
-                      </div>            
-                    </ul>
-         </nav>
- </div>
+ hr {
+    border-top: solid 1px #262626;
+ }
+ 
+ .menu-li a{
+    text-decoration: none;
+    color: #262626
+ }
+ 
+ .menu-li a:hover {
+    color: #66b3ff;
+ }
+ 
+ 
+ 
+ p, ul {
+    color: #262626;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ p {
+    font-size: 1.2em;
+    margin-top: 41px;
+ }
+ 
+ 
+ 
+ 
+ 
+ #last-ul {
+    margin-bottom: 68px;
+ }
+ 
+ 
+ 
 
 
 
 
- <div class="right-frame">
+ <nav class="nav">
+    <ul class="nav-ul">
+       <li class="nav-ul__first-li nav-ul__menu-li nav-ul__li-style"><a href=#Introduction_to_HTML>Introduction to HTML</a></li>  
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#Prerequisites>Prerequisites</a></li>
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#What_is_HTML?>What is HTML?</a></li>
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#What’s_in_the_head?_Metadata_in_HTML>What’s in the head? Metadata in HTML</a></li>
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#HTML_text_fundamentals>HTML text fundamentals</a></li>
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#What_is_a_hyperlink?>What is a hyperlink?</a></li>
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#Document_and_website_structure>Document and website structure</a></li>
+       <hr>
+       <li class="nav-ul__menu-li nav-ul__li-style"><a href=#Reference>Reference</a></li>
+       <hr>
+    </ul>
+ </nav>
 
-  <main class="main">
+
+
+
+
+ <main class="main">
     <section class="main-section" id="Introduction_to_HTML">
        <header class="main-section__header">Introduction to HTML</header>
        <article class="main-section__article">
@@ -183,14 +191,3 @@ Each element represents a different level of content in the document;
        </article>
     </section>
   </main>
-
- </div>
-
- 
-  
- 
-  <!-- build:js assets/scripts/App.js -->
-  <script src="/temp/scripts/App.js"></script>
-  <!-- endbuild -->
-</body>
-</html>

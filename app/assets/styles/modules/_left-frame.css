@@ -1,0 +1,10 @@
+.left-frame {
+    position: fixed;
+    width: 37%;
+    height: 100vh;
+    background-color: aqua;
+
+    &--padding-top {
+        padding-top: 21px;
+    }
+}

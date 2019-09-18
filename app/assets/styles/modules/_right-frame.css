@@ -1,0 +1,7 @@
+.right-frame {
+    position: fixed;
+    right: 0;
+    width: 63%;
+    height: 100vh;
+    background-color: brown;
+}

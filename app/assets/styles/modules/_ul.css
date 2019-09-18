@@ -1,0 +1,20 @@
+.ul {
+    position: absolute;
+    top: 95px;
+    height: 83vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    &__container {
+        border-bottom: solid 3px black;
+        height: 12vh;
+        
+       li {
+        font-size: 1.2rem;
+        padding-left: 22px;
+        padding-right: 22px;
+       }
+    }
+
+    
+}
