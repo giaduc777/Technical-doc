@@ -1,147 +1,29 @@
 .ul {
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    height: 83vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding-top: 28px;
-    background-color: rgb(111, 236, 236);
-
-    @mixin atLarge {
-        height: 85vh;
-    }
-
-    &__container {
-        border-bottom: solid 1.5px black;
-        height: 13vh;
-
-        @mixin atMedium {
-            height: 15vh;
-
-            @mixin atMedium--height {
-                height: 12vh;
-            }
-        }
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    li {
+        padding-bottom: 30px;
+        list-style: none;
 
         @mixin atLarge {
-            height: 16vh;
+            padding-bottom: 50px;
         }
 
         a {
             text-decoration: none;
-            color: rgb(73, 66, 66);
 
             @mixin atMedium {
-    
-                @mixin atMedium--height {
-                    font-size: 1.4rem;
-                    font-weight: bold;
-                }
-            }
-        }
+               
         
-        li {
-            font-size: 1.2rem;
-            padding-left: 22px;
-            padding-right: 22px;
-        }      
-        
-        &__1 {
-            padding-top: 15px;
-
-            @mixin atMedium {
-    
                 @mixin atMedium--height {
-                    padding-top: 35px;
-                }
-            }
-        }
-
-        &__2 {
-            padding-top: 35px;
-
-            @mixin atMedium {
-                padding-top: 18px;
-
-                @mixin atMedium--height {
-                    padding-top: 45px;
-                }
-            }
-        }
-
-        &__3 {
-            padding-top: 22px;
-
-            @mixin atMedium {
-
-                @mixin atMedium--height {
-                    padding-top: 45px;
-                }
-            }
-        }
-
-        &__4 {
-            padding-top: 6px;
-
-            @mixin atMedium {
-
-                @mixin atMedium--height {
-                    padding-top: 30px;
-                }
-            }
-        }
-
-        &__5 {
-            padding-top: 22px;
-
-            @mixin atMedium {
-
-                @mixin atMedium--height {
-                    padding-top: 30px;
+                    font-size: 1.3rem;
                 }
             }
 
             @mixin atLarge {
-                padding-top: 44px;
-            }
-        }
-
-        &__6 {
-            padding-top: 22px;
-
-            @mixin atMedium {
-
-                @mixin atMedium--height {
-                    padding-top: 45px;
-                }
-            }
-        }
-
-        &__7 {
-            padding-top: 15px;
-
-            @mixin atMedium {
-                padding-top: 10px;
-
-                @mixin atMedium--height {
-                    padding-top: 28px;
-                }
-            }
-        }
-
-        &__8 {
-            padding-top: 34px;
-            
-
-            @mixin atMedium {
-                padding-top: 18px;
-                padding-bottom: 90px;
-
-                @mixin atMedium--height {
-                    padding-top: 38px;
-                    padding-bottom: 2px;
-                }
+                font-size: 1.5rem;
             }
         }
     }
