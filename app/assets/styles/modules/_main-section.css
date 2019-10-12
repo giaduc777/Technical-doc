@@ -2,6 +2,10 @@
     
     padding-top: 88px;
 
+    @mixin atLarge {
+        padding-top: 178px;
+    }
+
     @mixin atMedium {
         
         &__reference {
