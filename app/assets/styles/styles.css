@@ -4,10 +4,8 @@
 @import "base/_variables";
 
 @import "modules/_header";
-@import "modules/_left-frame";
 @import "modules/_main-section";
 @import "modules/_main";
-@import "modules/_right-frame";
 @import "modules/_ul";
 
 
