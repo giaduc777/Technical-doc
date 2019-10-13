@@ -26,6 +26,10 @@
         }
     }
 
+    &__ul-padding {
+        padding-left: 25px;
+    }
+
     h4 {
         padding-bottom: 12px;
 

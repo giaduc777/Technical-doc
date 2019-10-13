@@ -488,6 +488,10 @@ html {
   }
 }
 
+.main-section__ul-padding {
+  padding-left: 25px;
+}
+
 .main-section h4 {
   padding-bottom: 12px;
 }
