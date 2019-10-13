@@ -1,12 +1,11 @@
 .header {
     display: flex;
     justify-content: center;
-    
     position: fixed;
     z-index: 10;
     width: 100%;
     min-height: 10%;
-    background-color: rgb(199, 64, 64);
+    background-color: rgb(247, 108, 108);
    
     
 }

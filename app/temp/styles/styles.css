@@ -443,12 +443,11 @@ html {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    
     position: fixed;
     z-index: 10;
     width: 100%;
     min-height: 10%;
-    background-color: rgb(199, 64, 64);
+    background-color: rgb(247, 108, 108);
    
     
 }
@@ -549,7 +548,7 @@ html {
 .main__left-window {
   width: 35%;
   height: 100vh;
-  background-color: aqua;
+  background-color: rgb(132, 198, 248);
   padding-top: 120px;
   padding-left: 15px;
   padding-right: 10px;
@@ -557,10 +556,14 @@ html {
   overflow-x: hidden;
 }
 
+.main__left-window a {
+  color: black;
+}
+
 .main__right-window {
   width: 65%;
   height: 100vh;
-  background-color: yellowgreen;
+  background-color: rgb(193, 228, 248);
   overflow-y: auto;
   overflow-x: hidden;
   padding-top: 37px;
